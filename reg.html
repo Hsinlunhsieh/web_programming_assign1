@@ -15,17 +15,17 @@
                 <form action="#" method="post">
                     <!-- 區塊 -->
                     <fieldset>
-                        <legend><h2>基本資料</h2></legend>
+                        <legend>基本資料</legend>
                         <!--姓名(必填)：文字框 (最長10個字元)-->
                         <label for="name">姓名(必填):</label>
-                        <input name="name" type="text" id="name" tabindex="1" placeholder="請輸入你的姓名" maxlength="10" required/>
+                        <input name="name" type="text" id="name" tabindex="1" placeholder="請輸入你的姓名" maxlength="10" required>
                         <br>
 
 
                         <!--學院(必填)：選擇框 (列出9個學院)-->
                         <label for="academy-choice">學院(必填):</label>
                         <select name="select-choice" id="academy-choice" tabindex="2" required/>
-                            <option value="文學院">文學院</option>
+                            <option value="文學院" selected="selected">文學院</option>
                             <option value="理學院">理學院</option>
                             <option value="社會科學學院">社會科學學院</option>
                             <option value="外國語文學院">外國語文學院</option>
@@ -43,11 +43,11 @@
                         <br>
                         <!--Email(必填)：文字框 (檢查email格式)-->
                       	<label for="email">Email(必填):</label>
-                        <input name="email" type="email" id="email" tabindex="4" placeholder="you@somewhere.com" required/>
+                        <input name="email" type="email" id="email" tabindex="4" placeholder="you@somewhere.com" required>
                         <br>
                         <!--生日(非必填)：西元年／月／日-->
                         <label for="birth">生日:</label>
-                        <input name="birth" type="date" id="birth" tabindex="5" placeholder="西元年/月/日">
+                        <input name="birth" type="date" id="birth" tabindex="5">
 
                         <br>
 
